@@ -61,14 +61,14 @@ public class TicketService {
     public Ticket createTicket(RequestTicketDto requestTicketDto) {
             Optional<Schedule> optionalOneWaySchedule = scheduleRepository.findById(requestTicketDto.getOneWayScheduleId());
             if (optionalOneWaySchedule.isEmpty()) {
-                throw new RuntimeException("One way schedule with the given ID is not found");
+                throw new ScheduleNotFoundException("One way schedule with the given ID is not found");
             }
 
             Optional<Schedule> optionalReturnSchedule = Optional.empty();
             if (requestTicketDto.getReturnScheduleId() != null) {
                 optionalReturnSchedule = scheduleRepository.findById(requestTicketDto.getReturnScheduleId());
                 if (optionalReturnSchedule.isEmpty()) {
-                    throw new RuntimeException("Return schedule with the given ID is not found");
+                    throw new ScheduleNotFoundException("Return schedule with the given ID is not found");
                 }
             }
 
