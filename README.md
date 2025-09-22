@@ -1,17 +1,17 @@
 # Backend - Web aplikacija za rezervaciju karata
 
 Ovaj repozitorij sadrži backend dio aplikacije za pregled, rezervaciju i kupnju karata.  
-Backend je razvijen koristeći Java Spring Boot i povezan s MySQL bazom podataka.
+Backend je razvijen koristeći Spring Boot povezan s MySQL bazom podataka.
 
 ## Tehnologije
 - **Java**  
 - **Spring Boot**  
 - **Hibernate ORM**  
-- **Keycloak** (autentikacija i autorizacija)  
-- **Swagger** (API dokumentacija)  
-- **MySQL** (baza podataka)  
-- **Maven** (upravljanje projektom)  
-- **Flyway** (migracije baze)
+- **Keycloak**
+- **Swagger**
+- **MySQL**
+- **Maven**
+- **Flyway**
 
 ## Funkcionalnosti
 - Upravljanje korisnicima (registracija, prijava)  
