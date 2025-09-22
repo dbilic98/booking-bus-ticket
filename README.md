@@ -5,7 +5,7 @@ Backend je razvijen koristeći Java Spring Boot i povezan s MySQL bazom podataka
 
 ## Tehnologije
 - **Java**  
-- **Spring Boot & Spring Framework**  
+- **Spring Boot**  
 - **Hibernate ORM**  
 - **Keycloak** (autentikacija i autorizacija)  
 - **Swagger** (API dokumentacija)  
@@ -20,7 +20,3 @@ Backend je razvijen koristeći Java Spring Boot i povezan s MySQL bazom podataka
 - DTO objekti i servisne klase  
 - Administracija sustava
 
-## Pokretanje
-1. Klonirajte repozitorij:  
-   ```bash
-   git clone https://github.com/dbilic98/booking-bus-ticket-backend.git
