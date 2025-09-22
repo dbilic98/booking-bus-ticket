@@ -20,3 +20,4 @@ Backend je razvijen koristeći Spring Boot povezan s MySQL bazom podataka.
 - DTO objekti i servisne klase  
 - Administracija sustava
 
+
